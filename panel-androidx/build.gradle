@@ -29,6 +29,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation deps.androidx.annotations
     implementation deps.androidx.appcompat
+    implementation deps.androidx.transition
 }
 
 publish {

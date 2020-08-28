@@ -4,14 +4,14 @@ import android.annotation.TargetApi
 import android.content.Context
 import android.graphics.Rect
 import android.os.Build
-import android.transition.ChangeBounds
-import android.transition.TransitionManager
 import android.util.AttributeSet
 import android.util.Pair
 import android.view.*
 import android.view.View.OnClickListener
 import android.view.View.OnFocusChangeListener
 import android.widget.LinearLayout
+import androidx.transition.ChangeBounds
+import androidx.transition.TransitionManager
 import com.effective.android.panel.Constants
 import com.effective.android.panel.LogTracker
 import com.effective.android.panel.R
@@ -557,7 +557,6 @@ class PanelSwitchLayout : LinearLayout, ViewAssertion {
 
     private fun checkoutBetweenFromUserPanel(): Boolean = isUserPanel(lastPanelId) && isUserPanel(panelId)
 
-    @TargetApi(19)
     private fun setTransition(duration: Long, panelId: Int) {
         val changeBounds = ChangeBounds()
         changeBounds.duration = duration

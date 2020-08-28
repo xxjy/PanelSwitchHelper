@@ -26,6 +26,7 @@ androidx.annotations = "androidx.annotation:annotation:$versions.androidx"
 androidx.recyclerview = "androidx.recyclerview:recyclerview:$versions.androidx"
 androidx.multidex = "androidx.multidex:multidex:$versions.androidx"
 androidx.constraint = "androidx.constraintlayout:constraintlayout:$versions.androidx"
+androidx.transition = "androidx.transition:transition:1.3.0"
 ext.deps.androidx = androidx
 
 ext.deps.pageindicator = "com.romandanylyk:pageindicatorview:$versions.pageindicator"
