@@ -2,6 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.novoda.bintray-release'
+apply plugin: 'maven'
 
 android {
     compileSdkVersion config.compile_sdk_version
@@ -40,3 +41,4 @@ publish {
     desc = 'the helper that is used to checkout panel when we are chatting'
     website = 'https://github.com/YummyLau/Anchors'
 }
+group = 'com.effective.android'
